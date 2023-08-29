@@ -14,7 +14,7 @@ body{
 .banner{
     padding: 50px 240px 0px 150px;
     display: flex;
-    gap: 100px;
+    /* gap: 100px; */
     align-items: center;
     justify-content: space-around;
     background-color:  rgba(229, 84, 115, 0.10);
@@ -129,7 +129,7 @@ main section{
     margin-top: 0;
 }
 .sale-up-content{
-    max-width: 500px;
+    max-width: 400px;
     text-align: center;
 }
 .sale-up-info{
@@ -167,11 +167,11 @@ main section{
     display: flex;
     gap: 24;
     justify-content: space-around;
-    padding: 0px 300px;
+    padding: 0px 400px;
 }
 .instagram-picture{
     padding: 30px;
-    gap : 24px;   
+    /* gap : 24px;    */
 }
 /* .......Get The Latest Deal..... */
 .latest-deal{
