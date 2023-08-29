@@ -1,0 +1,306 @@
+/*..... common shared style.... */
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    margin-top: 0%;
+    background-color:  rgba(229, 84, 115, 0.10) ;
+}
+/* .....Banner..... */
+.banner{
+    padding: 50px 240px 0px 150px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  rgba(229, 84, 115, 0.10);
+    margin-top: 0;
+}
+.banner .profile-picture{
+    width: 800px;
+}
+.banner-greeting{
+    color: #272727;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+}
+.btn-primary{
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color:white;
+    padding: 18px 35px;
+    border-radius: 8px;
+    background-color: #E55473;
+ }
+ /* ......Our Featured Flowers Section..... */
+main section{
+    margin-top: 130px;
+}
+.featured-flower{
+    padding: 130px;
+    border-radius: 10px;
+    margin: 80px 0px;
+}
+.featured-flower-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.featured-flower-description{
+    color:  rgba(39, 39, 39, 0.60);
+    text-align: center; 
+    font-size: 18px;
+    font-weight: 400;
+}
+.featured-flower-info-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.featured-flower-info{
+    text-align: center;
+    
+}
+.info-picture{
+    
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 30px;
+
+}
+#pink-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 70px 0px 70px;
+}
+#red-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 100px 45px 67px 45px;
+}
+#yellow-flower{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+}
+.info-link{
+    font-weight: 700;
+}
+.featured-flower-info a{
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+}
+/* ......Sale Up....... */
+.sale-up{
+    margin-top: 0%;
+    background-color:  rgba(229, 84, 115, 0.10) ;
+    width: auto;
+}
+.sale-up-container{
+    padding: 50px 240px 0px 150px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  rgba(229, 84, 115, 0.10);
+    margin-top: 0;
+}
+.sale-up-content{
+    max-width: 500px;
+    text-align: center;
+}
+.sale-up-info{
+    color: #272727;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.sale-up-description{
+    color: rgba(39, 39, 39, 0.60);
+}
+#off{
+    color: #E55473;
+}
+/* ....Instagram.... */
+.section-instagram{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    }
+#instagram-paragraph{
+    padding: 30px 160px;
+    text-align: center;
+    color: #727272;
+    }
+.section-instagram-description{    
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+}
+.instagram-container{
+    display: flex;
+    gap: 24;
+    justify-content: space-around;
+    padding: 0px 300px;
+}
+.instagram-picture{
+    padding: 30px;
+    gap : 24px;   
+}
+/* .......Get The Latest Deal..... */
+.latest-deal{
+    margin: 5px 5px; 
+    padding: 0px 78px;
+}
+.deal-image{
+    background-image: url('../images/Rectangle\ 9.png');
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #cccccc; 
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: azure;
+}
+#deal-head{
+         color: #181818;
+        font-weight: 500;
+        font-size: 60px;
+        margin-bottom: 5px;  
+}
+.deal-description{
+    color: #272727;
+    padding: 20px;
+}
+.deal-form{
+    display: flex;
+    gap: 20px;
+}
+.form-place,input[type="email"]{
+    width: 100%;
+    border-radius: 8px;
+    border: 0;
+    padding: 20px 250px;  
+}
+/* <!-- ...........Some Facts........... --> */
+.some-facts{
+    text-align: left;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:  rgba(229, 84, 115, 0.10)
+}
+.facts-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+.effects-des{
+    padding-left: 50px;
+    margin: 50px 0;
+}
+.some-facts h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    padding-left: 50px;
+    padding-bottom: 20px;  
+}
+.some-facts p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    padding-left: 50px;
+}
+.container h2{
+         font-size: 45px;
+         font-weight: 600;
+         color: #424242;  
+         padding-left: 31.92px;
+         padding-right: 40.92px;
+}
+.container p{
+     font-size: 20px;
+     font-weight: 600;
+     color: #727272;
+     padding-left: 31.92px;
+     padding-right: 40.92px;
+ }
+.container{
+    padding-top: 45.92px;
+    padding-bottom: 59.69px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    margin: 25px;
+    }
+
+.container:hover{
+    background-color: #E55473; 
+}
+.effects-des h1 span{
+    color: #E55473;
+}
+/* .....footer...... */
+.footer{
+   background-color: #181818;
+   margin-top: 130px;
+   padding: 0%;
+}
+.footer-info{
+        width: auto;   
+        display: inline-block;
+        text-align: center;
+        padding: 150px 400px;
+       
+}
+.footer-title{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    }
+.footer-description{
+        color:  rgba(255, 255, 255, 0.90);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        }
+#flower{
+    color: #E55473;
+}
+.copy{
+    color: aliceblue;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.40);
+}
