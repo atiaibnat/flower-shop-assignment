@@ -165,13 +165,16 @@ main section{
 }
 .instagram-container{
     display: flex;
-    gap: 24;
+    
     justify-content: space-around;
     padding: 0px 400px;
 }
+.instagram-picture{
+    padding: 40px ;
+}
 .instagram-picture img{
 
-    padding: 30px;
+    width: 120%;
     /* gap : 24px;    */
 }
 /* .......Get The Latest Deal..... */
