@@ -169,7 +169,8 @@ main section{
     justify-content: space-around;
     padding: 0px 400px;
 }
-.instagram-picture{
+.instagram-picture img{
+
     padding: 30px;
     /* gap : 24px;    */
 }
